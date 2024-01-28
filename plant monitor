@@ -7,30 +7,7 @@
 #include <Adafruit_I2CRegister.h>
 #include <Adafruit_SPIDevice.h>
 
-/**********************************************************************************
- *  TITLE: IoT-based Plant Watering system using ESP32, Moisture Sensor, DHT11 & Blynk with 0.96" OLED
- *  Click on the following links to learn more. 
- *  YouTube Video: https://youtu.be/hs1B99utAWY
- *  Related Blog : https://iotcircuithub.com/esp32-projects/
- *  
- *  This code is provided free for project purpose and fair use only.
- *  Please do mail us to techstudycell@gmail.com if you want to use it commercially.
- *  Copyrighted © by Tech StudyCell
- *  
- *  Preferences--> Aditional boards Manager URLs : 
- *  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
- *  
- *  Download Board ESP32 (2.0.5) : https://github.com/espressif/arduino-esp32
- *
- *  Download the libraries 
- *  Blynk Library (1.1.0):  https://github.com/blynkkk/blynk-library
- *  Adafruit_SSD1306 Library (2.5.7): https://github.com/adafruit/Adafruit_SSD1306
- *  AceButton Library (1.9.2): https://github.com/bxparks/AceButton
- *  Adafruit Unified Sensor library (1.1.7): https://github.com/adafruit/Adafruit_Sensor
- *  DHT Library (1.4.4): https://github.com/adafruit/DHT-sensor-library
- **********************************************************************************/
  
-/* Fill-in your Template ID (only if using Blynk.Cloud) */
 #define BLYNK_TEMPLATE_ID "TMPL3gxQt1W_R"
 #define BLYNK_TEMPLATE_NAME "Plant Monitor"
 #define BLYNK_AUTH_TOKEN "G303TS0yumauEHCFEz7vjqxPgpUTi1BV"
@@ -38,7 +15,7 @@
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char ssid[] = "helomoto"; //WiFi Name
-char pass[] = "9312238172"; //WiFi Password
+char pass[] = "*****"; //WiFi Password
 
 //Set the maximum wet and maximum dry value measured by the sensor
 int wetSoilVal = 930 ;  //min value when soil is wet
